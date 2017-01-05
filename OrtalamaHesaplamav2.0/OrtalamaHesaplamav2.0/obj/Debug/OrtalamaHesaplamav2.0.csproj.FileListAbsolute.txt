@@ -1,1 +1,9 @@
 D:\krdsnapiysin\OrtalamaHesaplamav2.0\OrtalamaHesaplamav2.0\bin\Debug\OrtalamaHesaplamav2.0.exe.config
+D:\krdsnapiysin\OrtalamaHesaplamav2.0\OrtalamaHesaplamav2.0\bin\Debug\OrtalamaHesaplamav2.0.exe
+D:\krdsnapiysin\OrtalamaHesaplamav2.0\OrtalamaHesaplamav2.0\bin\Debug\OrtalamaHesaplamav2.0.pdb
+D:\krdsnapiysin\OrtalamaHesaplamav2.0\OrtalamaHesaplamav2.0\obj\Debug\OrtalamaHesaplamav2.0.csprojResolveAssemblyReference.cache
+D:\krdsnapiysin\OrtalamaHesaplamav2.0\OrtalamaHesaplamav2.0\obj\Debug\OrtalamaHesaplamav2._0.Form1.resources
+D:\krdsnapiysin\OrtalamaHesaplamav2.0\OrtalamaHesaplamav2.0\obj\Debug\OrtalamaHesaplamav2._0.Properties.Resources.resources
+D:\krdsnapiysin\OrtalamaHesaplamav2.0\OrtalamaHesaplamav2.0\obj\Debug\OrtalamaHesaplamav2.0.csproj.GenerateResource.Cache
+D:\krdsnapiysin\OrtalamaHesaplamav2.0\OrtalamaHesaplamav2.0\obj\Debug\OrtalamaHesaplamav2.0.exe
+D:\krdsnapiysin\OrtalamaHesaplamav2.0\OrtalamaHesaplamav2.0\obj\Debug\OrtalamaHesaplamav2.0.pdb
