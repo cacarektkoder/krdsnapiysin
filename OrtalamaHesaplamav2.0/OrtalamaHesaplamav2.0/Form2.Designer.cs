@@ -105,7 +105,53 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBox61 = new System.Windows.Forms.TextBox();
+            this.textBox62 = new System.Windows.Forms.TextBox();
+            this.textBox63 = new System.Windows.Forms.TextBox();
+            this.textBox64 = new System.Windows.Forms.TextBox();
+            this.textBox65 = new System.Windows.Forms.TextBox();
+            this.textBox66 = new System.Windows.Forms.TextBox();
+            this.textBox67 = new System.Windows.Forms.TextBox();
+            this.textBox68 = new System.Windows.Forms.TextBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel6 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel7 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel8 = new System.Windows.Forms.LinkLabel();
+            this.textBox53 = new System.Windows.Forms.TextBox();
+            this.textBox54 = new System.Windows.Forms.TextBox();
+            this.textBox55 = new System.Windows.Forms.TextBox();
+            this.textBox56 = new System.Windows.Forms.TextBox();
+            this.textBox57 = new System.Windows.Forms.TextBox();
+            this.textBox58 = new System.Windows.Forms.TextBox();
+            this.textBox59 = new System.Windows.Forms.TextBox();
+            this.textBox60 = new System.Windows.Forms.TextBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox69 = new System.Windows.Forms.TextBox();
+            this.textBox70 = new System.Windows.Forms.TextBox();
+            this.textBox71 = new System.Windows.Forms.TextBox();
+            this.textBox72 = new System.Windows.Forms.TextBox();
+            this.textBox73 = new System.Windows.Forms.TextBox();
+            this.textBox74 = new System.Windows.Forms.TextBox();
+            this.textBox75 = new System.Windows.Forms.TextBox();
+            this.textBox76 = new System.Windows.Forms.TextBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.textBox77 = new System.Windows.Forms.TextBox();
+            this.textBox78 = new System.Windows.Forms.TextBox();
+            this.textBox79 = new System.Windows.Forms.TextBox();
+            this.textBox80 = new System.Windows.Forms.TextBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -186,7 +232,7 @@
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 22);
+            this.groupBox1.Location = new System.Drawing.Point(1, 0);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(494, 391);
             this.groupBox1.TabIndex = 0;
@@ -792,19 +838,600 @@
             this.label1.TabIndex = 76;
             this.label1.Text = "Türk Edebiyatı:\n";
             // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label23.Location = new System.Drawing.Point(637, 323);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(77, 24);
+            this.label23.TabIndex = 11;
+            this.label23.Text = "label23";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label22.Location = new System.Drawing.Point(503, 323);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(138, 24);
+            this.label22.TabIndex = 10;
+            this.label22.Text = "Ortalamanız : ";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Location = new System.Drawing.Point(720, 351);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(141, 73);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Hesapla";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.textBox77);
+            this.groupBox2.Controls.Add(this.textBox78);
+            this.groupBox2.Controls.Add(this.textBox79);
+            this.groupBox2.Controls.Add(this.textBox80);
+            this.groupBox2.Controls.Add(this.comboBox8);
+            this.groupBox2.Controls.Add(this.textBox69);
+            this.groupBox2.Controls.Add(this.textBox70);
+            this.groupBox2.Controls.Add(this.textBox71);
+            this.groupBox2.Controls.Add(this.textBox72);
+            this.groupBox2.Controls.Add(this.textBox73);
+            this.groupBox2.Controls.Add(this.textBox74);
+            this.groupBox2.Controls.Add(this.textBox75);
+            this.groupBox2.Controls.Add(this.textBox76);
+            this.groupBox2.Controls.Add(this.comboBox6);
+            this.groupBox2.Controls.Add(this.comboBox7);
+            this.groupBox2.Controls.Add(this.textBox61);
+            this.groupBox2.Controls.Add(this.textBox62);
+            this.groupBox2.Controls.Add(this.textBox63);
+            this.groupBox2.Controls.Add(this.textBox64);
+            this.groupBox2.Controls.Add(this.textBox65);
+            this.groupBox2.Controls.Add(this.textBox66);
+            this.groupBox2.Controls.Add(this.textBox67);
+            this.groupBox2.Controls.Add(this.textBox68);
+            this.groupBox2.Controls.Add(this.comboBox4);
+            this.groupBox2.Controls.Add(this.comboBox5);
+            this.groupBox2.Controls.Add(this.linkLabel5);
+            this.groupBox2.Controls.Add(this.linkLabel6);
+            this.groupBox2.Controls.Add(this.linkLabel7);
+            this.groupBox2.Controls.Add(this.linkLabel8);
+            this.groupBox2.Controls.Add(this.textBox53);
+            this.groupBox2.Controls.Add(this.textBox54);
+            this.groupBox2.Controls.Add(this.textBox55);
+            this.groupBox2.Controls.Add(this.textBox56);
+            this.groupBox2.Controls.Add(this.textBox57);
+            this.groupBox2.Controls.Add(this.textBox58);
+            this.groupBox2.Controls.Add(this.textBox59);
+            this.groupBox2.Controls.Add(this.textBox60);
+            this.groupBox2.Controls.Add(this.comboBox3);
+            this.groupBox2.Controls.Add(this.comboBox2);
+            this.groupBox2.Location = new System.Drawing.Point(501, 2);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(345, 233);
+            this.groupBox2.TabIndex = 8;
+            this.groupBox2.TabStop = false;
+            // 
+            // textBox61
+            // 
+            this.textBox61.Location = new System.Drawing.Point(279, 118);
+            this.textBox61.Name = "textBox61";
+            this.textBox61.Size = new System.Drawing.Size(45, 20);
+            this.textBox61.TabIndex = 89;
+            // 
+            // textBox62
+            // 
+            this.textBox62.Location = new System.Drawing.Point(228, 118);
+            this.textBox62.Name = "textBox62";
+            this.textBox62.Size = new System.Drawing.Size(45, 20);
+            this.textBox62.TabIndex = 88;
+            // 
+            // textBox63
+            // 
+            this.textBox63.Location = new System.Drawing.Point(114, 118);
+            this.textBox63.Name = "textBox63";
+            this.textBox63.Size = new System.Drawing.Size(45, 20);
+            this.textBox63.TabIndex = 87;
+            // 
+            // textBox64
+            // 
+            this.textBox64.Location = new System.Drawing.Point(165, 118);
+            this.textBox64.Name = "textBox64";
+            this.textBox64.Size = new System.Drawing.Size(45, 20);
+            this.textBox64.TabIndex = 86;
+            // 
+            // textBox65
+            // 
+            this.textBox65.Location = new System.Drawing.Point(228, 88);
+            this.textBox65.Name = "textBox65";
+            this.textBox65.Size = new System.Drawing.Size(45, 20);
+            this.textBox65.TabIndex = 85;
+            // 
+            // textBox66
+            // 
+            this.textBox66.Location = new System.Drawing.Point(279, 88);
+            this.textBox66.Name = "textBox66";
+            this.textBox66.Size = new System.Drawing.Size(45, 20);
+            this.textBox66.TabIndex = 84;
+            // 
+            // textBox67
+            // 
+            this.textBox67.Location = new System.Drawing.Point(165, 88);
+            this.textBox67.Name = "textBox67";
+            this.textBox67.Size = new System.Drawing.Size(45, 20);
+            this.textBox67.TabIndex = 83;
+            // 
+            // textBox68
+            // 
+            this.textBox68.Location = new System.Drawing.Point(114, 88);
+            this.textBox68.Name = "textBox68";
+            this.textBox68.Size = new System.Drawing.Size(45, 20);
+            this.textBox68.TabIndex = 82;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Diksiyon ve Hitabet",
+            "Osmanlı Türkçesi",
+            "Astronomi ve Uzay Bilimleri",
+            "Bilgi Kuramı",
+            "Demokrasi ve İnsan Hakları",
+            "İşletme",
+            "Ekonomi",
+            "Girişimcilik",
+            "Yönetim Bilimi",
+            "Uluslararası İlişkiler",
+            "Kur\'an-ı Kerim",
+            "Hz. Muhammed\'in Hayatı",
+            "Temel Dini Bilgiler",
+            "Alman Edebiyatı",
+            "İngiliz Edebiyatı",
+            "Fransız Edebiyatı",
+            "Seçmeli Beden Eğitimi",
+            "Sosyal Etkinlik",
+            "Seçmeli Görsel Sanatlar",
+            "Seçmeli Müzik",
+            "Sanat Tarihi",
+            "Drama",
+            "Bilgi ve İletişim Teknolojisi",
+            "Proje Hazırlama"});
+            this.comboBox4.Location = new System.Drawing.Point(6, 117);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(102, 21);
+            this.comboBox4.TabIndex = 81;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "Diksiyon ve Hitabet",
+            "Osmanlı Türkçesi",
+            "Astronomi ve Uzay Bilimleri",
+            "Bilgi Kuramı",
+            "Demokrasi ve İnsan Hakları",
+            "İşletme",
+            "Ekonomi",
+            "Girişimcilik",
+            "Yönetim Bilimi",
+            "Uluslararası İlişkiler",
+            "Kur\'an-ı Kerim",
+            "Hz. Muhammed\'in Hayatı",
+            "Temel Dini Bilgiler",
+            "Alman Edebiyatı",
+            "İngiliz Edebiyatı",
+            "Fransız Edebiyatı",
+            "Seçmeli Beden Eğitimi",
+            "Sosyal Etkinlik",
+            "Seçmeli Görsel Sanatlar",
+            "Seçmeli Müzik",
+            "Sanat Tarihi",
+            "Drama",
+            "Bilgi ve İletişim Teknolojisi",
+            "Proje Hazırlama"});
+            this.comboBox5.Location = new System.Drawing.Point(6, 87);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(102, 21);
+            this.comboBox5.TabIndex = 80;
+            // 
+            // linkLabel5
+            // 
+            this.linkLabel5.AutoSize = true;
+            this.linkLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F);
+            this.linkLabel5.Location = new System.Drawing.Point(280, 21);
+            this.linkLabel5.Name = "linkLabel5";
+            this.linkLabel5.Size = new System.Drawing.Size(61, 12);
+            this.linkLabel5.TabIndex = 79;
+            this.linkLabel5.TabStop = true;
+            this.linkLabel5.Text = "2.Performans";
+            // 
+            // linkLabel6
+            // 
+            this.linkLabel6.AutoSize = true;
+            this.linkLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F);
+            this.linkLabel6.Location = new System.Drawing.Point(217, 20);
+            this.linkLabel6.Name = "linkLabel6";
+            this.linkLabel6.Size = new System.Drawing.Size(61, 12);
+            this.linkLabel6.TabIndex = 78;
+            this.linkLabel6.TabStop = true;
+            this.linkLabel6.Text = "1.Performans";
+            // 
+            // linkLabel7
+            // 
+            this.linkLabel7.AutoSize = true;
+            this.linkLabel7.Location = new System.Drawing.Point(162, 17);
+            this.linkLabel7.Name = "linkLabel7";
+            this.linkLabel7.Size = new System.Drawing.Size(43, 13);
+            this.linkLabel7.TabIndex = 77;
+            this.linkLabel7.TabStop = true;
+            this.linkLabel7.Text = "2.Sınav";
+            // 
+            // linkLabel8
+            // 
+            this.linkLabel8.AutoSize = true;
+            this.linkLabel8.Location = new System.Drawing.Point(110, 17);
+            this.linkLabel8.Name = "linkLabel8";
+            this.linkLabel8.Size = new System.Drawing.Size(43, 13);
+            this.linkLabel8.TabIndex = 76;
+            this.linkLabel8.TabStop = true;
+            this.linkLabel8.Text = "1.Sınav";
+            // 
+            // textBox53
+            // 
+            this.textBox53.Location = new System.Drawing.Point(279, 61);
+            this.textBox53.Name = "textBox53";
+            this.textBox53.Size = new System.Drawing.Size(45, 20);
+            this.textBox53.TabIndex = 22;
+            // 
+            // textBox54
+            // 
+            this.textBox54.Location = new System.Drawing.Point(228, 61);
+            this.textBox54.Name = "textBox54";
+            this.textBox54.Size = new System.Drawing.Size(45, 20);
+            this.textBox54.TabIndex = 21;
+            // 
+            // textBox55
+            // 
+            this.textBox55.Location = new System.Drawing.Point(114, 61);
+            this.textBox55.Name = "textBox55";
+            this.textBox55.Size = new System.Drawing.Size(45, 20);
+            this.textBox55.TabIndex = 20;
+            // 
+            // textBox56
+            // 
+            this.textBox56.Location = new System.Drawing.Point(165, 61);
+            this.textBox56.Name = "textBox56";
+            this.textBox56.Size = new System.Drawing.Size(45, 20);
+            this.textBox56.TabIndex = 19;
+            // 
+            // textBox57
+            // 
+            this.textBox57.Location = new System.Drawing.Point(228, 31);
+            this.textBox57.Name = "textBox57";
+            this.textBox57.Size = new System.Drawing.Size(45, 20);
+            this.textBox57.TabIndex = 18;
+            // 
+            // textBox58
+            // 
+            this.textBox58.Location = new System.Drawing.Point(279, 31);
+            this.textBox58.Name = "textBox58";
+            this.textBox58.Size = new System.Drawing.Size(45, 20);
+            this.textBox58.TabIndex = 17;
+            // 
+            // textBox59
+            // 
+            this.textBox59.Location = new System.Drawing.Point(165, 31);
+            this.textBox59.Name = "textBox59";
+            this.textBox59.Size = new System.Drawing.Size(45, 20);
+            this.textBox59.TabIndex = 16;
+            // 
+            // textBox60
+            // 
+            this.textBox60.Location = new System.Drawing.Point(114, 31);
+            this.textBox60.Name = "textBox60";
+            this.textBox60.Size = new System.Drawing.Size(45, 20);
+            this.textBox60.TabIndex = 15;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Diksiyon ve Hitabet",
+            "Osmanlı Türkçesi",
+            "Astronomi ve Uzay Bilimleri",
+            "Bilgi Kuramı",
+            "Demokrasi ve İnsan Hakları",
+            "İşletme",
+            "Ekonomi",
+            "Girişimcilik",
+            "Yönetim Bilimi",
+            "Uluslararası İlişkiler",
+            "Kur\'an-ı Kerim",
+            "Hz. Muhammed\'in Hayatı",
+            "Temel Dini Bilgiler",
+            "Alman Edebiyatı",
+            "İngiliz Edebiyatı",
+            "Fransız Edebiyatı",
+            "Seçmeli Beden Eğitimi",
+            "Sosyal Etkinlik",
+            "Seçmeli Görsel Sanatlar",
+            "Seçmeli Müzik",
+            "Sanat Tarihi",
+            "Drama",
+            "Bilgi ve İletişim Teknolojisi",
+            "Proje Hazırlama"});
+            this.comboBox3.Location = new System.Drawing.Point(6, 60);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(102, 21);
+            this.comboBox3.TabIndex = 1;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Diksiyon ve Hitabet",
+            "Osmanlı Türkçesi",
+            "Astronomi ve Uzay Bilimleri",
+            "Bilgi Kuramı",
+            "Demokrasi ve İnsan Hakları",
+            "İşletme",
+            "Ekonomi",
+            "Girişimcilik",
+            "Yönetim Bilimi",
+            "Uluslararası İlişkiler",
+            "Kur\'an-ı Kerim",
+            "Hz. Muhammed\'in Hayatı",
+            "Temel Dini Bilgiler",
+            "Alman Edebiyatı",
+            "İngiliz Edebiyatı",
+            "Fransız Edebiyatı",
+            "Seçmeli Beden Eğitimi",
+            "Sosyal Etkinlik",
+            "Seçmeli Görsel Sanatlar",
+            "Seçmeli Müzik",
+            "Sanat Tarihi",
+            "Drama",
+            "Bilgi ve İletişim Teknolojisi",
+            "Proje Hazırlama"});
+            this.comboBox2.Location = new System.Drawing.Point(6, 30);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(102, 21);
+            this.comboBox2.TabIndex = 0;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label21.ForeColor = System.Drawing.Color.SandyBrown;
+            this.label21.Location = new System.Drawing.Point(534, 246);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(265, 20);
+            this.label21.TabIndex = 6;
+            this.label21.Text = "Kaç Tane Seçmeli Dersiniz Var?";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"});
+            this.comboBox1.Location = new System.Drawing.Point(612, 269);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(125, 21);
+            this.comboBox1.TabIndex = 7;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // textBox69
+            // 
+            this.textBox69.Location = new System.Drawing.Point(279, 175);
+            this.textBox69.Name = "textBox69";
+            this.textBox69.Size = new System.Drawing.Size(45, 20);
+            this.textBox69.TabIndex = 99;
+            // 
+            // textBox70
+            // 
+            this.textBox70.Location = new System.Drawing.Point(228, 175);
+            this.textBox70.Name = "textBox70";
+            this.textBox70.Size = new System.Drawing.Size(45, 20);
+            this.textBox70.TabIndex = 98;
+            // 
+            // textBox71
+            // 
+            this.textBox71.Location = new System.Drawing.Point(114, 175);
+            this.textBox71.Name = "textBox71";
+            this.textBox71.Size = new System.Drawing.Size(45, 20);
+            this.textBox71.TabIndex = 97;
+            // 
+            // textBox72
+            // 
+            this.textBox72.Location = new System.Drawing.Point(165, 175);
+            this.textBox72.Name = "textBox72";
+            this.textBox72.Size = new System.Drawing.Size(45, 20);
+            this.textBox72.TabIndex = 96;
+            // 
+            // textBox73
+            // 
+            this.textBox73.Location = new System.Drawing.Point(228, 145);
+            this.textBox73.Name = "textBox73";
+            this.textBox73.Size = new System.Drawing.Size(45, 20);
+            this.textBox73.TabIndex = 95;
+            // 
+            // textBox74
+            // 
+            this.textBox74.Location = new System.Drawing.Point(279, 145);
+            this.textBox74.Name = "textBox74";
+            this.textBox74.Size = new System.Drawing.Size(45, 20);
+            this.textBox74.TabIndex = 94;
+            // 
+            // textBox75
+            // 
+            this.textBox75.Location = new System.Drawing.Point(165, 145);
+            this.textBox75.Name = "textBox75";
+            this.textBox75.Size = new System.Drawing.Size(45, 20);
+            this.textBox75.TabIndex = 93;
+            // 
+            // textBox76
+            // 
+            this.textBox76.Location = new System.Drawing.Point(114, 145);
+            this.textBox76.Name = "textBox76";
+            this.textBox76.Size = new System.Drawing.Size(45, 20);
+            this.textBox76.TabIndex = 92;
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "Diksiyon ve Hitabet",
+            "Osmanlı Türkçesi",
+            "Astronomi ve Uzay Bilimleri",
+            "Bilgi Kuramı",
+            "Demokrasi ve İnsan Hakları",
+            "İşletme",
+            "Ekonomi",
+            "Girişimcilik",
+            "Yönetim Bilimi",
+            "Uluslararası İlişkiler",
+            "Kur\'an-ı Kerim",
+            "Hz. Muhammed\'in Hayatı",
+            "Temel Dini Bilgiler",
+            "Alman Edebiyatı",
+            "İngiliz Edebiyatı",
+            "Fransız Edebiyatı",
+            "Seçmeli Beden Eğitimi",
+            "Sosyal Etkinlik",
+            "Seçmeli Görsel Sanatlar",
+            "Seçmeli Müzik",
+            "Sanat Tarihi",
+            "Drama",
+            "Bilgi ve İletişim Teknolojisi",
+            "Proje Hazırlama"});
+            this.comboBox6.Location = new System.Drawing.Point(6, 174);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(102, 21);
+            this.comboBox6.TabIndex = 91;
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "Diksiyon ve Hitabet",
+            "Osmanlı Türkçesi",
+            "Astronomi ve Uzay Bilimleri",
+            "Bilgi Kuramı",
+            "Demokrasi ve İnsan Hakları",
+            "İşletme",
+            "Ekonomi",
+            "Girişimcilik",
+            "Yönetim Bilimi",
+            "Uluslararası İlişkiler",
+            "Kur\'an-ı Kerim",
+            "Hz. Muhammed\'in Hayatı",
+            "Temel Dini Bilgiler",
+            "Alman Edebiyatı",
+            "İngiliz Edebiyatı",
+            "Fransız Edebiyatı",
+            "Seçmeli Beden Eğitimi",
+            "Sosyal Etkinlik",
+            "Seçmeli Görsel Sanatlar",
+            "Seçmeli Müzik",
+            "Sanat Tarihi",
+            "Drama",
+            "Bilgi ve İletişim Teknolojisi",
+            "Proje Hazırlama"});
+            this.comboBox7.Location = new System.Drawing.Point(6, 144);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(102, 21);
+            this.comboBox7.TabIndex = 90;
+            // 
+            // textBox77
+            // 
+            this.textBox77.Location = new System.Drawing.Point(279, 202);
+            this.textBox77.Name = "textBox77";
+            this.textBox77.Size = new System.Drawing.Size(45, 20);
+            this.textBox77.TabIndex = 104;
+            // 
+            // textBox78
+            // 
+            this.textBox78.Location = new System.Drawing.Point(228, 202);
+            this.textBox78.Name = "textBox78";
+            this.textBox78.Size = new System.Drawing.Size(45, 20);
+            this.textBox78.TabIndex = 103;
+            // 
+            // textBox79
+            // 
+            this.textBox79.Location = new System.Drawing.Point(114, 202);
+            this.textBox79.Name = "textBox79";
+            this.textBox79.Size = new System.Drawing.Size(45, 20);
+            this.textBox79.TabIndex = 102;
+            // 
+            // textBox80
+            // 
+            this.textBox80.Location = new System.Drawing.Point(165, 202);
+            this.textBox80.Name = "textBox80";
+            this.textBox80.Size = new System.Drawing.Size(45, 20);
+            this.textBox80.TabIndex = 101;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "Diksiyon ve Hitabet",
+            "Osmanlı Türkçesi",
+            "Astronomi ve Uzay Bilimleri",
+            "Bilgi Kuramı",
+            "Demokrasi ve İnsan Hakları",
+            "İşletme",
+            "Ekonomi",
+            "Girişimcilik",
+            "Yönetim Bilimi",
+            "Uluslararası İlişkiler",
+            "Kur\'an-ı Kerim",
+            "Hz. Muhammed\'in Hayatı",
+            "Temel Dini Bilgiler",
+            "Alman Edebiyatı",
+            "İngiliz Edebiyatı",
+            "Fransız Edebiyatı",
+            "Seçmeli Beden Eğitimi",
+            "Sosyal Etkinlik",
+            "Seçmeli Görsel Sanatlar",
+            "Seçmeli Müzik",
+            "Sanat Tarihi",
+            "Drama",
+            "Bilgi ve İletişim Teknolojisi",
+            "Proje Hazırlama"});
+            this.comboBox8.Location = new System.Drawing.Point(6, 201);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(102, 21);
+            this.comboBox8.TabIndex = 100;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(846, 425);
+            this.ClientSize = new System.Drawing.Size(874, 433);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -887,5 +1514,50 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox textBox61;
+        private System.Windows.Forms.TextBox textBox62;
+        private System.Windows.Forms.TextBox textBox63;
+        private System.Windows.Forms.TextBox textBox64;
+        private System.Windows.Forms.TextBox textBox65;
+        private System.Windows.Forms.TextBox textBox66;
+        private System.Windows.Forms.TextBox textBox67;
+        private System.Windows.Forms.TextBox textBox68;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.LinkLabel linkLabel5;
+        private System.Windows.Forms.LinkLabel linkLabel6;
+        private System.Windows.Forms.LinkLabel linkLabel7;
+        private System.Windows.Forms.LinkLabel linkLabel8;
+        private System.Windows.Forms.TextBox textBox53;
+        private System.Windows.Forms.TextBox textBox54;
+        private System.Windows.Forms.TextBox textBox55;
+        private System.Windows.Forms.TextBox textBox56;
+        private System.Windows.Forms.TextBox textBox57;
+        private System.Windows.Forms.TextBox textBox58;
+        private System.Windows.Forms.TextBox textBox59;
+        private System.Windows.Forms.TextBox textBox60;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox77;
+        private System.Windows.Forms.TextBox textBox78;
+        private System.Windows.Forms.TextBox textBox79;
+        private System.Windows.Forms.TextBox textBox80;
+        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.TextBox textBox69;
+        private System.Windows.Forms.TextBox textBox70;
+        private System.Windows.Forms.TextBox textBox71;
+        private System.Windows.Forms.TextBox textBox72;
+        private System.Windows.Forms.TextBox textBox73;
+        private System.Windows.Forms.TextBox textBox74;
+        private System.Windows.Forms.TextBox textBox75;
+        private System.Windows.Forms.TextBox textBox76;
+        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox comboBox7;
     }
 }
