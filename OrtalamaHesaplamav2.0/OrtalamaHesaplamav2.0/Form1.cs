@@ -101,6 +101,11 @@ namespace OrtalamaHesaplamav2._0
 
         }
 
+        private void label22_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             
@@ -241,7 +246,7 @@ namespace OrtalamaHesaplamav2._0
                 c = Convert.ToDouble(textBox55.Text);
                 d = Convert.ToDouble(textBox56.Text);
                 sec2 = a + b + c + d;
-                sec2 = sec2 / 2;
+                sec2 = sec2 / 1;
                 // ==============================
                 a = Convert.ToDouble(textBox65.Text);
                 b = Convert.ToDouble(textBox66.Text);
