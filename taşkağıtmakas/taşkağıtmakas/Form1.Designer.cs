@@ -112,9 +112,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(469, 390);
+            this.button1.Location = new System.Drawing.Point(163, 369);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(99, 44);
             this.button1.TabIndex = 6;
             this.button1.Text = "Devam";
             this.button1.UseVisualStyleBackColor = true;

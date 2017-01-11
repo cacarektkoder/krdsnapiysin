@@ -41,6 +41,7 @@ namespace taşkağıtmakas
             {
                 label2.Text = "Seçiminizi Yapınız ...";
             }
+            button1.Visible = false;
             label3.Visible = false;
             label4.Visible = false;
         }
@@ -48,6 +49,7 @@ namespace taşkağıtmakas
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             // 1
+            button1.Visible = true;
             pictureBox2.Visible = false;
             pictureBox3.Visible = false;
             label2.Text = "Seçiminiz 'Kağıt' dır ...";
@@ -57,6 +59,7 @@ namespace taşkağıtmakas
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             // 2
+            button1.Visible = true;
             pictureBox1.Visible = false;
             pictureBox3.Visible = false;
             label2.Text = "Seçiminiz 'Makas' dır ...";
@@ -66,6 +69,7 @@ namespace taşkağıtmakas
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             // 3
+            button1.Visible = true;
             pictureBox1.Visible = false;
             pictureBox2.Visible = false;
             label2.Text = "Seçiminiz 'Taş' dır ...";
@@ -78,7 +82,7 @@ namespace taşkağıtmakas
             {
 
 
-                MySqlDataAdapter adapter = new MySqlDataAdapter("select * from oyun", con);
+                MySqlDataAdapter adapter = new MySqlDataAdapter("select * from oyun where gelenBirinci >  0", con);
                 DataSet ds = new DataSet();
                 adapter.Fill(ds, "oyun");
                 dataGridView1.DataSource = ds.Tables["oyun"];

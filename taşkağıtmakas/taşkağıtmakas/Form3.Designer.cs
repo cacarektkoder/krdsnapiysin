@@ -35,7 +35,7 @@
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(155, 97);
+            this.metroButton1.Location = new System.Drawing.Point(9, 63);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(208, 75);
             this.metroButton1.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // metroButton2
             // 
-            this.metroButton2.Location = new System.Drawing.Point(155, 178);
+            this.metroButton2.Location = new System.Drawing.Point(9, 144);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(208, 75);
             this.metroButton2.TabIndex = 1;
@@ -55,7 +55,7 @@
             // 
             // metroButton3
             // 
-            this.metroButton3.Location = new System.Drawing.Point(155, 259);
+            this.metroButton3.Location = new System.Drawing.Point(9, 225);
             this.metroButton3.Name = "metroButton3";
             this.metroButton3.Size = new System.Drawing.Size(208, 75);
             this.metroButton3.TabIndex = 2;

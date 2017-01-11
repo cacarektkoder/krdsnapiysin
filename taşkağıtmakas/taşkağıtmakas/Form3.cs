@@ -19,7 +19,7 @@ namespace taşkağıtmakas
 
         private void Form3_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         Form form1 = new Form1();
