@@ -71,7 +71,7 @@
             this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroButton1);
             this.Name = "Form3";
-            this.Text = "Taş-Kağıt-Makas Ana Menu";
+            this.Text = "Taş-Kağıt-Makas Ana Menu v1.1";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
 
