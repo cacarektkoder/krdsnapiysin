@@ -15,6 +15,7 @@ namespace taşkağıtmakas
     {
         MySqlConnection con;
         Form form3 = new Form3();
+        Form bu = new Form4();
         public Form4()
         {
             con = new MySqlConnection(MySQL.conString);
@@ -26,29 +27,46 @@ namespace taşkağıtmakas
         {
 
         }
-        string gKullanici, gPass, kKullanici, kPass, kPosta;
+        public static string gKullanici, gPass, kKullanici, kPass, kPosta, gOnline, gPuan;
+        
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
         private void metroButton1_Click(object sender, EventArgs e)
         {
-            MySqlDataAdapter adapter = new MySqlDataAdapter("select * from kayitlar ", con);
-            DataSet ds = new DataSet();
-            adapter.Fill(ds, "kayitlar");
-            dataGridView1.DataSource = ds.Tables["kayitlar"];
-
-            gKullanici = dataGridView1[0, 0].Value.ToString();
-            gPass = dataGridView1[1, 0].Value.ToString();
-
             kKullanici = textBox1.Text;
             kPass = textBox2.Text;
 
-            if(kKullanici == gKullanici && gPass == kPass)
+            MySqlDataAdapter adapter = new MySqlDataAdapter("select * from kayitlar where gKullanici = '" + kKullanici + "'", con);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds, "kayitlar");
+            dataGridView1.DataSource = ds.Tables["kayitlar"];
+            if (dataGridView1.RowCount < 2)
             {
-                MessageBox.Show("Giriş Başarılı ..");
-                this.Hide();
-                form3.Show();
+                MessageBox.Show("Böyle Bir Kayıt Yok ...");
             }
             else
             {
-                MessageBox.Show("Giriş Başarısız ..");
+                gKullanici = dataGridView1[0, 0].Value.ToString();
+                gPass = dataGridView1[1, 0].Value.ToString();
+
+
+
+                if (kKullanici == gKullanici && gPass == kPass)
+                {
+                    MessageBox.Show("Giriş Başarılı ..");
+                    MySqlCommand online = new MySqlCommand("UPDATE kayitlar SET gOnline = 1 WHERE gKullanici = '" + gKullanici + "'", con);
+                    online.ExecuteNonQuery();
+                    
+                    form3.Show();
+                    bu.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Giriş Başarısız ..");
+                }
             }
         }
 
@@ -70,6 +88,14 @@ namespace taşkağıtmakas
             {
                 MessageBox.Show("Kayıt Başarısız....","HATA 001");
             }
+        }
+        private void Form4_FormClosing(object sender, FormClosedEventArgs e)
+        {
+            MySqlCommand online = new MySqlCommand("UPDATE kayitlar SET gOnline = 0 WHERE gKullanici = '" + gKullanici + "'", con);
+            online.ExecuteNonQuery();
+            MySqlCommand oda = new MySqlCommand("UPDATE kayitlar SET gOda = 0 WHERE gKullanici = '" + Form4.gKullanici + "'", con);
+            oda.ExecuteNonQuery();
+            con.Close();
         }
     }
 }

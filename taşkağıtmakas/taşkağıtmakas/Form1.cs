@@ -168,6 +168,10 @@ namespace taşkağıtmakas
 
         private void Form1_FormClosing(object sender,FormClosingEventArgs e)
         {
+            MySqlCommand online = new MySqlCommand("UPDATE kayitlar SET gOnline = 0 WHERE gKullanici = '" + Form4.gKullanici + "'", con);
+            online.ExecuteNonQuery();
+            MySqlCommand oda = new MySqlCommand("UPDATE kayitlar SET gOda = 0 WHERE gKullanici = '" + Form4.gKullanici + "'", con);
+            oda.ExecuteNonQuery();
             con.Close();
         }
     }
