@@ -109,16 +109,15 @@ namespace taşkağıtmakas_v2._1
 
             if (listBox1.FindString(1.ToString()) != -1) // Eğer değer listbox'ta var ise
             {
-                sayi = 0;
-                for (int i = 0; i <= listBox1.Items.Count; i++)
+                if (listBox1.Items.Contains(1.ToString()) == false)
                 {
-                    if (listBox1.Items[i] == "1")
-                    {
-                        sayi = sayi + 1;
-                    }
-
+                    label8.Text = 1.ToString();
                 }
-                label8.Text = sayi.ToString();
+                else
+                {
+                    label8.Text = 2.ToString();
+                }
+
             }
             if (listBox1.FindString(2.ToString()) != -1)
             {

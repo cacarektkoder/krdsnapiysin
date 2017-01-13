@@ -57,18 +57,18 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.kBirinci = new System.Windows.Forms.Label();
             this.kIkinci = new System.Windows.Forms.Label();
+            this.kBirinci = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -336,7 +336,7 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(328, 318);
+            this.listBox1.Location = new System.Drawing.Point(88, 320);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(56, 56);
             this.listBox1.TabIndex = 16;
@@ -353,15 +353,23 @@
             this.groupBox2.TabIndex = 17;
             this.groupBox2.TabStop = false;
             // 
-            // pictureBox4
+            // kIkinci
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(41, 74);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
+            this.kIkinci.AutoSize = true;
+            this.kIkinci.Location = new System.Drawing.Point(239, 145);
+            this.kIkinci.Name = "kIkinci";
+            this.kIkinci.Size = new System.Drawing.Size(41, 13);
+            this.kIkinci.TabIndex = 3;
+            this.kIkinci.Text = "label16";
+            // 
+            // kBirinci
+            // 
+            this.kBirinci.AutoSize = true;
+            this.kBirinci.Location = new System.Drawing.Point(51, 145);
+            this.kBirinci.Name = "kBirinci";
+            this.kBirinci.Size = new System.Drawing.Size(41, 13);
+            this.kBirinci.TabIndex = 2;
+            this.kBirinci.Text = "label15";
             // 
             // pictureBox5
             // 
@@ -373,23 +381,15 @@
             this.pictureBox5.TabIndex = 1;
             this.pictureBox5.TabStop = false;
             // 
-            // kBirinci
+            // pictureBox4
             // 
-            this.kBirinci.AutoSize = true;
-            this.kBirinci.Location = new System.Drawing.Point(51, 145);
-            this.kBirinci.Name = "kBirinci";
-            this.kBirinci.Size = new System.Drawing.Size(41, 13);
-            this.kBirinci.TabIndex = 2;
-            this.kBirinci.Text = "label15";
-            // 
-            // kIkinci
-            // 
-            this.kIkinci.AutoSize = true;
-            this.kIkinci.Location = new System.Drawing.Point(239, 145);
-            this.kIkinci.Name = "kIkinci";
-            this.kIkinci.Size = new System.Drawing.Size(41, 13);
-            this.kIkinci.TabIndex = 3;
-            this.kIkinci.Text = "label16";
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(41, 74);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(64, 64);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
             // 
             // Form2
             // 
@@ -415,8 +415,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
